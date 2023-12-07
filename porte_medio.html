@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Canil Patinhas</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <script type="text/javascript">
+        imagens = new Array(2);
+        imagens[0] = "<img src='imagens/pixel1.jpg'>";
+        imagens[1] = "<img src='imagens/pixel2.jpg'>";
+
+        function mudaImagem(n){
+            document.getElementById("img").innerHTML = imagens[n];
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <div id="header">
+            <h1>Canil Patinhas</h1>
+            <h2>Médio porte. Dá um novo lar a um dos nossos patudos.</h2>
+        </div>
+        <hr>
+        <div id="menu">
+            <div class="cao">
+                <img src="imagens/botao0.jpg" onmouseover="mudaImagem(1);" onmouseout="mudaImagem(0);">
+                <div id="img"><img src="imagens/pixel1.jpg"></div>
+                <p id="descricao">
+                    <b>Nome:</b> Pixel<br><b>Idade:</b> 7 anos
+                </p>
+            </div>
+            
+        </div>
+        <hr>
+        <div>
+            <p>•<a id="contactos" href="contactos.html">Contactos</a>
+            <a id="contactos" href="index.html">Voltar</a></p>
+        </div>
+        <hr>
+        <p>
+            Tags usadas:
+        </p>
+    </main>
+</body>
+</html>

@@ -1,0 +1,88 @@
+/*cores usadas para o site:
+#FAF6F2 - branco ivory
+#683B2B - castanho chocolate
+#D49E8D - rosa velho
+#DED1BD - bege
+
+*/ 
+
+body{
+    height:100%;
+    width:100%;
+}
+main{
+    background-color: #FAF6F2;
+    height:100%;
+    width: 90%;
+    margin:auto;
+    padding-bottom:20px;
+}
+
+h1{
+    font-size:64px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:10px;
+    padding-bottom: 0px;
+    color:#D49E8D;
+}
+
+h2{
+    font-size:38px;
+    font-family:'Times New Roman', Times, serif;
+    margin:10px;
+    color:#683B2B;
+}
+
+#menu{
+    background-color: #FFFFFF;
+    margin:10px;
+    border-radius:1em;
+    
+}
+
+#contactos{
+    font-size:38px;
+    font-family:'Times New Roman', Times, serif;
+    margin:10px;
+    color:#DED1BD;
+    margin:10px;
+    
+
+}
+
+p{
+    margin:10px;
+}
+
+
+.categorias{
+    font-size:48px;
+    color: #000000;
+    margin-left:30px;
+    padding-top:20px;
+}
+
+img{
+    padding-top:20px;
+    margin-left:30px;
+    padding-bottom:20px;
+}
+
+#form{
+    
+    background-color: #FFFFFF;
+    margin:10px;
+    border-radius:1em;
+    width:40%;
+    padding:50px;
+    font-size:20px;
+}
+
+#descricao{
+    font-size:30px;
+    color: #000000;
+    margin-left:30px;
+    padding-top:20px;
+}
+
+
